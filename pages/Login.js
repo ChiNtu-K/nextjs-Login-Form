@@ -6,7 +6,8 @@ export default function Login(){
     <>
       <div className={loginstyles.container}>
              <div className={loginstyles.login_div}>
-                   <h1>Sign in to your account</h1>
+                   <h1 className={loginstyles.heading}>
+                     Sign in to your account</h1>
                   <form>
                         <div className={loginstyles.field}>
                           <label for='lemail'>Email</label><br/>
