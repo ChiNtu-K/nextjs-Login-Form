@@ -6,8 +6,8 @@ padding: 0;
 background: white url('https://delivery.bunningscontenthub.bunnings.com.au/api/public/content/60185b9c102047efb79b21c8e9fdc739?v=66bd7473') no-repeat fixed center;
 background-size: cover;
 font-family: 'Arial', sans-serif;
-
 }
+
 .login_div{
   background-color:white;
   width: 450px;
@@ -17,11 +17,13 @@ font-family: 'Arial', sans-serif;
   border-top:10px solid red;
   border-radius: 5px;
 }
+
 .heading{
   color:#0d5257;
   text-align: center;
   font-size: 35px;
 }
+
 .field{
   margin-bottom: 15px;
 }
@@ -31,8 +33,16 @@ font-family: 'Arial', sans-serif;
   padding: 13px;
   margin-top: 10px;
 }
+
 .checkbox_field{
   margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.checkbox_field input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
 }
 
 .button_field{
