@@ -11,21 +11,24 @@ export default function Login(){
                   <form>
                         <div className={loginstyles.field}>
                           <label for='lemail'>Email</label><br/>
-                          <input type='email' id='lemail'/>
+                          <input type='email' id='lemail' size="35px"/>
                         </div>
                         <div className={loginstyles.field}>
                           <label for='lpassword'>Password</label><br/>
                           <input type='Password' id='lpassword'/>
                         </div>
-                        <div className={loginstyles.field}>
+                        <div className={loginstyles.checkbox_field}>
                           <input type='checkbox' id='lcheckbox'/>
                           <label for='lcheckbox'>Remember me</label>
                         </div>
-                        <div className={loginstyles.field}>
+                        <div className={loginstyles.button_field}>
                           <input type='submit' value='Sign in'/>
                         </div>
                   </form>
-                  <a href="#">Create account</a>
+                  <div className={loginstyles.account_field}>
+                  <a href="#" className={loginstyles.account}>Create account</a>
+                  </div>
+
                   <div>
                     <a href="#">Forgot Password?</a>
                     <a href="#">Go to Trade</a>
