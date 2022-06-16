@@ -11,7 +11,7 @@ export default function Login(){
                   <form>
                         <div className={loginstyles.field}>
                           <label for='lemail'>Email</label><br/>
-                          <input type='email' id='lemail' size="35px"/>
+                          <input type='email' id='lemail'/>
                         </div>
                         <div className={loginstyles.field}>
                           <label for='lpassword'>Password</label><br/>
@@ -26,10 +26,10 @@ export default function Login(){
                         </div>
                   </form>
                   <div className={loginstyles.account_field}>
-                  <a href="#" className={loginstyles.account}>Create account</a>
+                  <a href="#" className={loginstyles.account_text}>Create account</a>
                   </div>
 
-                  <div>
+                  <div className={loginstyles.footer}>
                     <a href="#">Forgot Password?</a>
                     <a href="#">Go to Trade</a>
                   </div>

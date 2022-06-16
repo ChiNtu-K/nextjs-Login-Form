@@ -12,28 +12,32 @@ font-family: 'Arial', sans-serif;
   background-color:white;
   width: 450px;
   margin:0 auto;
-  margin-top: 100px;
-  padding: 10px;
+  margin-top: 70px;
+  padding: 25px;
 }
 .heading{
   color:#0d5257;
+  text-align: center;
 }
 .field{
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
+
 .field input{
   width: 100%;
-  padding: 10px;
+  padding: 13px;
+  margin-top: 10px;
 }
 .checkbox_field{
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
+
 .button_field{
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .button_field input{
   width: 100%;
-  padding: 10px;
+  padding: 13px;
   background-color:#da291c;
   border: none;
   color:white;
@@ -45,5 +49,21 @@ font-family: 'Arial', sans-serif;
 .account_field{
      text-align: center;
      margin-top:10px;
-     margin-bottom: 20px;
+     margin-bottom: 30px;
+}
+.account_text:hover{
+  border-bottom: 2px solid red;
+  color:red; 
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  margin:10px 0;
+}
+.footer a{
+  text-decoration: underline;
+}
+.footer a:hover{
+  color:red;
 }
