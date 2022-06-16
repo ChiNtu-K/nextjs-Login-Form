@@ -1,0 +1,13 @@
+.container{
+width: 100%;
+height: 100vh;
+margin: 0;
+padding: 0;
+background: white url('https://delivery.bunningscontenthub.bunnings.com.au/api/public/content/60185b9c102047efb79b21c8e9fdc739?v=66bd7473') no-repeat fixed center;
+background-size: cover;
+
+}
+.login_div{
+  background-color:rgb(199, 91, 91);
+  width: 250px;
+}
