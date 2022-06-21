@@ -80,3 +80,8 @@ font-family: 'Arial', sans-serif;
 .footer a:hover{
   color:red;
 }
+
+/* Form Validation */
+.err{
+  color:red;
+}
